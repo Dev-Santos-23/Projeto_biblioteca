@@ -27,4 +27,5 @@ def _close(conn):
         conn.close()
     print("Conexão encerrada!")
     
-               
+if __name__ == "__main__":
+    conectar()               
