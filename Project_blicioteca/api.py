@@ -1,19 +1,3 @@
-# import requests
-# import os
-# import dotenv
-
-# from pprint import pprint as pp
-
-# dotenv.load_dotenv()
-# api_kay = os.getenv("DB_API_KAY")
-
-# response = requests.get(
-#   'https://api.restcountries.com/countries/v5?q=all',
-#   headers={'Authorization': f'Bearer {api_kay}'}
-# )
-# data = response.json()
-
-# pp(data)
 
 import os
 import requests

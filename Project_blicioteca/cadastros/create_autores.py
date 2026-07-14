@@ -1,5 +1,5 @@
 from take_conection import conectar, _close
-from back_of_create_autores import buscar_pais, validar_autor
+from Project_blicioteca.tests_and_validations.back_of_create_autores import buscar_pais, validar_autor
 
 def injetando_autores_no_banco(inject):
     
